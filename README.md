@@ -1,13 +1,13 @@
 Multi-Screen YouTube Player
-=========================
+===========================
 
-* [sinatra-multi-screen](https://github.com/shokai/sinatra-multi-screen)
-* Ruby 1.8.7+ or 1.9.2+
-* Sinatra1.3+
+* http://multiscreen-youtube.herokuapp.com
+* https://github.com/shokai/sinatra-multi-screen
 
 
 Install Dependencies
 --------------------
+Ruby 1.8.7+ or 1.9.2+ required.
 
     % gem install bundler foreman
     % bundle install
