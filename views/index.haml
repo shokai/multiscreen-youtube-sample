@@ -4,8 +4,9 @@
 %div#header
   %h1= @title
 %div#main
-  %ul
-    %li
-      %a{:href => "#{app_root}/tv/channel/1"} TV
-    %li
-      %a{:href => "#{app_root}/remote/channel/1"} Remote
+  %p
+    %a{:href => "#{app_root}/tv/channel/1"} TV
+  %p
+    %a{:href => "#{app_root}/remote/channel/1"} Remote
+  %p
+    sinatra-multi-screen version #{SinatraMultiScreen::VERSION}
