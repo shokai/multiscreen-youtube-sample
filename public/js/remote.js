@@ -11,7 +11,7 @@ io.on("connect", function(session){
     tv.$("#btn_search").click();
   });
 
-  $("#text_search").keydown(function(e){
+  $("#text_search").keyup(function(e){
     var word = $("#text_search").val();
     tv.$("#text_search").val(word);
   });
